@@ -18,6 +18,9 @@
 			<Item Name="Oauth2.GitLab.lvclass" Type="LVClass" URL="../source/Oauth2.GitLab/Oauth2.GitLab.lvclass"/>
 			<Item Name="Oauth2.Slack.lvclass" Type="LVClass" URL="../source/Oauth2.Slack/Oauth2.Slack.lvclass"/>
 		</Item>
+		<Item Name="RFC7231 HTTP 1.1" Type="Folder">
+			<Item Name="Parse HTTP Response.vi" Type="VI" URL="../source/RFC2616 HTTP 1.1/Parse HTTP Response.vi"/>
+		</Item>
 		<Item Name="Gitlab OAuth Test.vi" Type="VI" URL="../unit tests/Gitlab OAuth Test.vi"/>
 		<Item Name="GitHub OAuth Test.vi" Type="VI" URL="../unit tests/GitHub OAuth Test.vi"/>
 		<Item Name="Slack OAuth Test.vi" Type="VI" URL="../unit tests/Slack OAuth Test.vi"/>
