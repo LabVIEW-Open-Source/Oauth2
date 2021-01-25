@@ -81,15 +81,6 @@
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Parse HTTP Response.vi" Type="VI" URL="../Parse HTTP Response.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!Q`````Q2#&lt;W2Z!!!11$$`````"EBF972F=A!!*E"Q!"Y!!"!/4W&amp;V&gt;'AS,GRW9WRB=X-!!!J0986U;$)A&lt;X6U!!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71$$`````$5B56&amp;!A5G6T='^O=W5!*%"Q!"Y!!"!/4W&amp;V&gt;'AS,GRW9WRB=X-!!!F0986U;$)A;7Y!91$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!"Q!*!!I#!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!##!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
-		</Item>
 		<Item Name="setTokenElement.vi" Type="VI" URL="../setTokenElement.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E^B&gt;82I-CZM&gt;G.M98.T!!!+4W&amp;V&gt;'AS)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!/1$$`````"6:B&lt;(6F!2M!]1!!!!!!!!!#'%^"&gt;82I17.D:8.T6'^L:7YO&lt;(:D&lt;'&amp;T=S"0186U;$)A6'^L:7YA27RF&lt;76O&gt;#!N,3"F&lt;H6N,G.U&lt;!$:1"9!%1FD&lt;'FF&lt;H2@;71.9WRJ:7ZU8X.F9X*F&gt;!VS:8.Q&lt;WZT:6^U?8"F"8.D&lt;X"F$(*F:'FS:7.U8X6S;16F=H*P=B&amp;F=H*P=F^E:8.D=GFQ&gt;'FP&lt;AFF=H*P=F^V=GE+:X*B&lt;H2@&gt;(FQ:12D&lt;W2F$'&amp;D9W6T=V^U&lt;WNF&lt;AJU&lt;WNF&lt;F^U?8"F#G6Y='FS:8.@;7Y)&gt;8.F=GZB&lt;75)='&amp;T=X&gt;P=G1.=G6G=G6T;&amp;^U&lt;WNF&lt;B"F&lt;G2Q&lt;WFO&gt;#"F&lt;'6N:7ZU!!!.6'^L:7YA:7RF&lt;76O&gt;!!E1(!!(A!!%!Z0986U;$)O&lt;(:D&lt;'&amp;T=Q!!#5^B&gt;82I-C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!B!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -355,7 +346,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="OAuth2 Flow -- enum.ctl" Type="VI" URL="../OAuth2 Flow -- enum.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#+!!!!!1##!0%!!!!!!!!!!AZ0986U;$)O&lt;(:D&lt;'&amp;T=QF$&lt;WZU=G^M)$-!95!7!!13186U;'^S;8JB&gt;'FP&lt;C"$&lt;W2F#%FN='RJ9WFU'F*F=W^V=G.F)%^X&lt;G6S)%.S:72F&lt;H2J97RT%E.M;76O&gt;#"$=G6E:7ZU;7&amp;M=Q!+2X*B&lt;H1A2GRP&gt;Q!!!1!!!!!!!!</Property>
