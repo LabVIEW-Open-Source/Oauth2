@@ -21,13 +21,13 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Initialize OAuth for GitHub.vi" Type="VI" URL="../Initialize OAuth for GitHub.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!.^!!!!*A!%!!!!,E"Q!"Y!!"=64W&amp;V&gt;'AS,E&gt;J&gt;%BV9CZM&gt;G.M98.T!!V0986U;$)O2WFU3(6C!!J!)12S:8"P!!!11#%,=G6Q&lt;TJT&gt;'&amp;U&gt;8-!%%!B#X*F='][;7ZW;82F!"2!)1^S:8"P8W2F='RP?7VF&lt;H1!%%!B#X"V9GRJ9V^S:8"P!"2!)1^B:'VJ&lt;DJS:8"P8WBP&lt;WM!&amp;%!B$X&gt;S;82F/H*F='^@;'^P;Q!51#%/=G6B:$JS:8"P8WBP&lt;WM!!!Z!)1FB:'VJ&lt;DJP=G=!$E!B#8&gt;S;82F/G^S:Q!/1#%)=G6B:$JP=G=!!"2!)1ZB:'VJ&lt;DJP=G&gt;@;'^P;Q!!&amp;E!B%'&amp;E&lt;7FO/H"V9GRJ9V^L:8E!!":!)2"X=GFU:4JQ&gt;7*M;7.@;W6Z!!!51#%0=G6B:$JQ&gt;7*M;7.@;W6Z!"*!)1VB:'VJ&lt;DJH='&gt;@;W6Z!"*!)1VX=GFU:4JH='&gt;@;W6Z!"*!)1RS:7&amp;E/G&gt;Q:V^L:8E!!!J!)12V=W6S!!!/1#%*=G6B:$JV=W6S!""!)1JV=W6S/G6N97FM!!!11#%,&gt;8.F=DJG&lt;WRM&lt;X=!#E!B"'&gt;J=X1!!"*!)1VO&lt;X2J:GFD982J&lt;WZT!""!)1NE:7RF&gt;'6@=G6Q&lt;Q!71#%1&gt;X*J&gt;'5[:'FT9X6T=WFP&lt;A!!&amp;%!B$X*F971[:'FT9X6T=WFP&lt;A!51#%/&gt;X*J&gt;'5[='&amp;D;W&amp;H:8-!!"*!)1VS:7&amp;E/H"B9WNB:W6T!"2!)1^E:7RF&gt;'5[='&amp;D;W&amp;H:8-!$E!B#(&gt;P=GNG&lt;'^X!!!51#%0=W6D&gt;8*J&gt;(F@:8:F&lt;H2T!*]!]1!!!!!!!!!#&amp;5^B&gt;82I-CZ(;82)&gt;7)O&lt;(:D&lt;'&amp;T=S*(;82)&gt;7)A17.D:8.T)&amp;.D&lt;X"F)#UN)'.M&gt;8.U:8)O9X2M!&amp;Z!5!!A!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q!1!"%!%A!4!"1!&amp;1!7!"=!'!!:!"I!'Q!=!"U!(A!@!#!!)2.(;82)&gt;7)A17.D:8.T)&amp;.D&lt;X"F!":!-0````].1WRJ:7ZU)&amp;.F9X*F&gt;!!31$$`````#5.M;76O&gt;#"*2!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!C!#-!*!-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!#!!!!!!"!#5!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!/B!!!!+!!%!!!!,E"Q!"Y!!"=64W&amp;V&gt;'AS,E&gt;J&gt;%BV9CZM&gt;G.M98.T!!V0986U;$)O2WFU3(6C!":!)2""&lt;'RP&gt;S"4;7&gt;O&gt;8!A+&amp;1J!!!/1$$`````"7RP:WFO!!J!)12S:8"P!!!11#%,=G6Q&lt;TJT&gt;'&amp;U&gt;8-!%%!B#X*F='][;7ZW;82F!"2!)1^S:8"P8W2F='RP?7VF&lt;H1!%%!B#X"V9GRJ9V^S:8"P!"2!)1^B:'VJ&lt;DJS:8"P8WBP&lt;WM!&amp;%!B$X&gt;S;82F/H*F='^@;'^P;Q!51#%/=G6B:$JS:8"P8WBP&lt;WM!!!Z!)1FB:'VJ&lt;DJP=G=!$E!B#8&gt;S;82F/G^S:Q!/1#%)=G6B:$JP=G=!!"2!)1ZB:'VJ&lt;DJP=G&gt;@;'^P;Q!!&amp;E!B%'&amp;E&lt;7FO/H"V9GRJ9V^L:8E!!":!)2"X=GFU:4JQ&gt;7*M;7.@;W6Z!!!51#%0=G6B:$JQ&gt;7*M;7.@;W6Z!"*!)1VB:'VJ&lt;DJH='&gt;@;W6Z!"*!)1VX=GFU:4JH='&gt;@;W6Z!"*!)1RS:7&amp;E/G&gt;Q:V^L:8E!!!J!)12V=W6S!!!/1#%*=G6B:$JV=W6S!""!)1JV=W6S/G6N97FM!!!11#%,&gt;8.F=DJG&lt;WRM&lt;X=!#E!B"'&gt;J=X1!!"*!)1VO&lt;X2J:GFD982J&lt;WZT!""!)1NE:7RF&gt;'6@=G6Q&lt;Q!71#%1&gt;X*J&gt;'5[:'FT9X6T=WFP&lt;A!!&amp;%!B$X*F971[:'FT9X6T=WFP&lt;A!51#%/&gt;X*J&gt;'5[='&amp;D;W&amp;H:8-!!"*!)1VS:7&amp;E/H"B9WNB:W6T!"2!)1^E:7RF&gt;'5[='&amp;D;W&amp;H:8-!$E!B#(&gt;P=GNG&lt;'^X!!!51#%0=W6D&gt;8*J&gt;(F@:8:F&lt;H2T!*]!]1!!!!!!!!!#&amp;5^B&gt;82I-CZ(;82)&gt;7)O&lt;(:D&lt;'&amp;T=S*(;82)&gt;7)A17.D:8.T)&amp;.D&lt;X"F)#UN)'.M&gt;8.U:8)O9X2M!&amp;Z!5!!A!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0!"!!%1!3!"-!&amp;!!6!"9!&amp;Q!9!"E!'A!&lt;!"Q!(1!?!"]!)!!B!#)!)R.(;82)&gt;7)A17.D:8.T)&amp;.D&lt;X"F!":!-0````].1WRJ:7ZU)&amp;.F9X*F&gt;!!31$$`````#5.M;76O&gt;#"*2!"5!0!!$!!!!!!!!!!"!!!!!A!!!!-!!!!E!#5!*A-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!#!!!!!!!!!))!!!!!!!!!!A!!!))!!!##!!!!!!"!#=!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="GitHub Access Scope -- cluster.ctl" Type="VI" URL="../GitHub Access Scope -- cluster.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
@@ -46,6 +46,26 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+	</Item>
+	<Item Name="decode access token response.vi" Type="VI" URL="../decode access token response.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!8&amp;5^B&gt;82I-CZ(;82)&gt;7)O&lt;(:D&lt;'&amp;T=Q!.4W&amp;V&gt;'AS,E&gt;J&gt;%BV9A!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"*!-0````])5G6T='^O=W5!!""!-0````]'3'6B:'6S!!!S1(!!(A!!&amp;R60986U;$)O2WFU3(6C,GRW9WRB=X-!%%^B&gt;82I-CZ(;82)&gt;7)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!2)!!!#3!!!!!!%!#A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+	</Item>
+	<Item Name="transmit additional endpoints.vi" Type="VI" URL="../transmit additional endpoints.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$!!!!!"1!%!!!!%%!Q`````Q:4&gt;(*J&lt;G=!!#*!1!!"`````Q!"&amp;%&amp;E:'FU;7^O97QA27ZE='^J&lt;H2T!!!O1(!!(A!!&amp;R60986U;$)O2WFU3(6C,GRW9WRB=X-!$5^B&gt;82I-CZ(;82)&gt;7)!6!$Q!!Q!!!!!!!)!!!!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!%!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 </LVClass>

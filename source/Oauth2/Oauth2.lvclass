@@ -23,6 +23,15 @@
 	</Item>
 	<Item Name="overridable" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		<Item Name="transmit additional endpoints.vi" Type="VI" URL="../transmit additional endpoints.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#U!!!!"1!%!!!!%%!Q`````Q:4&gt;(*J&lt;G=!!#*!1!!"`````Q!"&amp;%&amp;E:'FU;7^O97QA27ZE='^J&lt;H2T!!!C1(!!(A!!%!Z0986U;$)O&lt;(:D&lt;'&amp;T=Q!!"E^B&gt;82I-A!!6!$Q!!Q!!!!!!!)!!!!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!%!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		</Item>
 		<Item Name="relative access path.vi" Type="VI" URL="../relative access path.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!"1!%!!!!'E!Q`````R&amp;5&lt;WNF&lt;C""9W.F=X-A5'&amp;U;!!=1$$`````%E&amp;V&gt;'BP=GF[982J&lt;WYA5'&amp;U;!!!*%"Q!"Y!!"!/4W&amp;V&gt;'AS,GRW9WRB=X-!!!F0986U;$)A;7Y!6!$Q!!Q!!!!"!!)!!!!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!%!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
