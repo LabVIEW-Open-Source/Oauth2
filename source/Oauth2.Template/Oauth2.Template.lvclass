@@ -19,4 +19,24 @@
 	<Item Name="Oauth2.Template.ctl" Type="Class Private Data" URL="Oauth2.Template.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="decode access token response.vi" Type="VI" URL="../decode access token response.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!:&amp;U^B&gt;82I-CZ5:7VQ&lt;'&amp;U:3ZM&gt;G.M98.T!!^0986U;$)O6'6N='RB&gt;'5!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31$$`````#&amp;*F=X"P&lt;H.F!!!11$$`````"EBF972F=A!!.E"Q!"Y!!"E84W&amp;V&gt;'AS,F2F&lt;8"M982F,GRW9WRB=X-!%E^B&gt;82I-CZ5:7VQ&lt;'&amp;U:3"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!"%A!!!*)!!!!!!1!+!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+	</Item>
+	<Item Name="relative access path.vi" Type="VI" URL="../relative access path.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$)!!!!"1!%!!!!'E!Q`````R&amp;5&lt;WNF&lt;C""9W.F=X-A5'&amp;U;!!=1$$`````%E&amp;V&gt;'BP=GF[982J&lt;WYA5'&amp;U;!!!-E"Q!"Y!!"E84W&amp;V&gt;'AS,F2F&lt;8"M982F,GRW9WRB=X-!$U^B&gt;82I-CZ5:7VQ&lt;'&amp;U:1"5!0!!$!!!!!%!!A!!!!!!!!!!!!!!!!!!!!!!!Q)!!(A!!!!!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!"!!1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+	</Item>
 </LVClass>
