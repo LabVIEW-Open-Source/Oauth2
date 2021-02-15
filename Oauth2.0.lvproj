@@ -17,6 +17,7 @@
 			<Item Name="Oauth2.GitHub.lvclass" Type="LVClass" URL="../source/Oauth2.Github/Oauth2.GitHub.lvclass"/>
 			<Item Name="Oauth2.GitLab.lvclass" Type="LVClass" URL="../source/Oauth2.GitLab/Oauth2.GitLab.lvclass"/>
 			<Item Name="Oauth2.Slack.lvclass" Type="LVClass" URL="../source/Oauth2.Slack/Oauth2.Slack.lvclass"/>
+			<Item Name="Oauth2.LinkedIn.lvclass" Type="LVClass" URL="../source/Oauth2.LinkedIn/Oauth2.LinkedIn.lvclass"/>
 		</Item>
 		<Item Name="RFC7231 HTTP 1.1" Type="Folder">
 			<Item Name="Parse HTTP Response.vi" Type="VI" URL="../source/RFC7231 HTTP 1.1/Parse HTTP Response.vi"/>
@@ -25,6 +26,7 @@
 		</Item>
 		<Item Name="Gitlab OAuth Test.vi" Type="VI" URL="../unit tests/Gitlab OAuth Test.vi"/>
 		<Item Name="GitHub OAuth Test.vi" Type="VI" URL="../unit tests/GitHub OAuth Test.vi"/>
+		<Item Name="LinkedIn OAuth Test.vi" Type="VI" URL="../unit tests/LinkedIn OAuth Test.vi"/>
 		<Item Name="Slack OAuth Test.vi" Type="VI" URL="../unit tests/Slack OAuth Test.vi"/>
 		<Item Name="Oauth2.lvclass" Type="LVClass" URL="../source/Oauth2/Oauth2.lvclass"/>
 		<Item Name="OAuthClient.lvclass" Type="LVClass" URL="../source/OauthClient/OAuthClient.lvclass"/>
@@ -99,10 +101,6 @@
 				<Item Name="GregorianCal_MonthLengths.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/GregorianCal_MonthLengths.vi"/>
 				<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
 				<Item Name="Unix Time to Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/epoch.UNIX/Unix Time to Timestamp.vi"/>
-				<Item Name="RFC5322 Months -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.rfc5322/RFC5322 Months -- enum.ctl"/>
-				<Item Name="RFC5322 DateString to Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.rfc5322/RFC5322 DateString to Timestamp.vi"/>
-				<Item Name="Timestamp to RFC5322 DateString.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.rfc5322/Timestamp to RFC5322 DateString.vi"/>
-				<Item Name="DateTime.RFC5322.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.rfc5322/DateTime.RFC5322.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
