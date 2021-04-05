@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-04-05 15:51:00" Creator="Francois Normandin" Comments="" ID="a2f359a954adf18ff344b264d276841a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-04-05 18:01:49" Creator="Francois Normandin" Comments="" ID="dff3e157693236108a1c86d35efad3a5">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Oauth2</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_builtpackages</Library_Output_Folder>
@@ -21,16 +21,14 @@
       <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.0.0.2</External_Dependencies>
       <External_Dependencies>labview_open_source_lib_serializer &gt;= 1.1.1.14</External_Dependencies>
       <External_Dependencies>labview_open_source_lib_unicity &gt;= 1.1.0.6</External_Dependencies>
-      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 3.1.3.21</External_Dependencies>
-      <External_Dependencies>labview_open_source_project_lib_mqtt_tcp_connection &gt;= 3.1.2.6</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_connection &gt;= 1.0.0.5</External_Dependencies>
       <External_Dependencies>labview_open_source_project_lib_openuri &gt;= 1.0.0.9</External_Dependencies>
       <External_Dependencies>labview_open_source_project_lib_serializer_base64 &gt;= 1.0.2.4</External_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.4.0.13</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.0.0.2</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_serializer-1.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_unicity-1.1.0.6</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-3.1.3.21</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_project_lib_mqtt_tcp_connection-3.1.2.6</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_connection-1.0.0.5</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_project_lib_openuri-1.0.0.9</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_project_lib_serializer_base64-1.0.2.4</Direct_Dependencies>
     </Package_Dependencies>
@@ -76,8 +74,7 @@ A few comments about the current state and evolution of the project:
 - PKCE (Proof-Key Challenge Exchange) workflow is implemented and used by default. It is highly recommended not to deactivate it, as it will become a mandatory feature when Oauth2.1 becomes the norm.
 
 - As of this release, the library currently supports only redirections on port 80 (http) but has been built in a way that future updates should be easy to change to port 443 through https connection. This is because the project is maintained in LV2013 and TLS support was added in LV2020. However, an OauthClient class has been created to act as an "interface" which should allow injection of a TLS-secured client in later versions of LabVIEW (distributed as an extension addon to this library)
-- This library currently supports Authorization tokens, but not the ID Tokens for OpenID extension. It should be part of a future upgrade, once support for JWT (JSON Web Token) has been added to the library.
-- The user will notice a dependency on "MQTT Connection". This is for the first release while the Connection classes are stripped from the MQTT namespace and become their own separate libraries released under the G Open Source Project for LabVIEW. Stay tuned!</Description>
+- This library currently supports Authorization tokens, but not the ID Tokens for OpenID extension. It should be part of a future upgrade, once support for JWT (JSON Web Token) has been added to the library.</Description>
       <Copyright/>
       <Packager>Francois Normandin</Packager>
       <URL>https://github.com/LabVIEW-Open-Source/Oauth2</URL>
@@ -95,8 +92,7 @@ The Oauth2 library does not (and will not) support Implicit Grant Flow, as it wi
 
 A few comments about the current state and evolution of the project: 
 - The library currently supports only redirections on port 80 (http) but has been built in a way that future updates should be easy to change to port 443 through https connection. This is because the project is maintained in LV2013 and TLS support was added in LV2020. However, an OauthClient class has been created to act as an "interface" which should allow injection of a TLS-secured client in later versions of LabVIEW (distributed as an extension addon to this library)
-- This library currently supports Authorization tokens, but not the ID Tokens for ConnectID extension. It is being planned as well, once support for JWT (JSON Web Token) has been added to the library.
-- The user will notice a dependency on "MQTT Connection". This is for the first release while the Connection classes are stripped from the MQTT namespace and become their own separate libraries released under the G Open Source Project for LabVIEW. Stay tuned!</Release_Notes>
+- This library currently supports Authorization tokens, but not the ID Tokens for ConnectID extension. It is being planned as well, once support for JWT (JSON Web Token) has been added to the library.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -470,7 +466,7 @@ A few comments about the current state and evolution of the project:
         <Path>source\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EC098B057DEF7C1A9D47072992DBDE8</GUID>
+      <GUID>FEA5E7C707F9E7BC2D75177F798C5579</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -561,7 +557,7 @@ A few comments about the current state and evolution of the project:
         <Path>source\OauthClient\Write client handle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D34C9B9A6E4CA727736020FC60B37AE0</GUID>
+      <GUID>EEBE64517904E82546DB8D881A48D690</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -624,7 +620,7 @@ A few comments about the current state and evolution of the project:
         <Path>source\OAuthToken\Update Token.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57B51520E487431C03956788F8C3EF5B</GUID>
+      <GUID>6D34E5A599968AAEE7E4775FFF2423E2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -715,7 +711,7 @@ A few comments about the current state and evolution of the project:
         <Path>source\Examples\Slack OAuth Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB862592D3578ACB0BC392CF11046C9C</GUID>
+      <GUID>DD85048696BA2BC42AD13ADF58B88701</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
