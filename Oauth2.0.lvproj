@@ -26,11 +26,13 @@
 			<Item Name="Parse Header.vi" Type="VI" URL="../source/RFC7231 HTTP 1.1/Parse Header.vi"/>
 			<Item Name="Parse Location.vi" Type="VI" URL="../source/RFC7231 HTTP 1.1/Parse Location.vi"/>
 		</Item>
-		<Item Name="Gitlab OAuth Test.vi" Type="VI" URL="../unit tests/Gitlab OAuth Test.vi"/>
-		<Item Name="GitHub OAuth Test.vi" Type="VI" URL="../unit tests/GitHub OAuth Test.vi"/>
-		<Item Name="LinkedIn OAuth Test.vi" Type="VI" URL="../unit tests/LinkedIn OAuth Test.vi"/>
-		<Item Name="Slack OAuth Test.vi" Type="VI" URL="../unit tests/Slack OAuth Test.vi"/>
-		<Item Name="GooglePlatform OAuth Test.vi" Type="VI" URL="../unit tests/GooglePlatform OAuth Test.vi"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Gitlab OAuth Test.vi" Type="VI" URL="../source/Examples/Gitlab OAuth Test.vi"/>
+			<Item Name="GitHub OAuth Test.vi" Type="VI" URL="../source/Examples/GitHub OAuth Test.vi"/>
+			<Item Name="LinkedIn OAuth Test.vi" Type="VI" URL="../source/Examples/LinkedIn OAuth Test.vi"/>
+			<Item Name="Slack OAuth Test.vi" Type="VI" URL="../source/Examples/Slack OAuth Test.vi"/>
+			<Item Name="GooglePlatform OAuth Test.vi" Type="VI" URL="../source/Examples/GooglePlatform OAuth Test.vi"/>
+		</Item>
 		<Item Name="Oauth2.lvclass" Type="LVClass" URL="../source/Oauth2/Oauth2.lvclass"/>
 		<Item Name="OAuthClient.lvclass" Type="LVClass" URL="../source/OauthClient/OAuthClient.lvclass"/>
 		<Item Name="OAuthAccessToken.lvclass" Type="LVClass" URL="../source/OAuthToken/OAuthAccessToken.lvclass"/>
