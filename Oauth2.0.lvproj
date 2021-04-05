@@ -19,6 +19,7 @@
 			<Item Name="Oauth2.GitLab.lvclass" Type="LVClass" URL="../source/Oauth2.GitLab/Oauth2.GitLab.lvclass"/>
 			<Item Name="Oauth2.Slack.lvclass" Type="LVClass" URL="../source/Oauth2.Slack/Oauth2.Slack.lvclass"/>
 			<Item Name="Oauth2.LinkedIn.lvclass" Type="LVClass" URL="../source/Oauth2.LinkedIn/Oauth2.LinkedIn.lvclass"/>
+			<Item Name="Oauth2.Google.lvclass" Type="LVClass" URL="../source/Oauth2.Google/Oauth2.Google.lvclass"/>
 		</Item>
 		<Item Name="RFC7231 HTTP 1.1" Type="Folder">
 			<Item Name="Parse HTTP Response.vi" Type="VI" URL="../source/RFC7231 HTTP 1.1/Parse HTTP Response.vi"/>
@@ -29,6 +30,7 @@
 		<Item Name="GitHub OAuth Test.vi" Type="VI" URL="../unit tests/GitHub OAuth Test.vi"/>
 		<Item Name="LinkedIn OAuth Test.vi" Type="VI" URL="../unit tests/LinkedIn OAuth Test.vi"/>
 		<Item Name="Slack OAuth Test.vi" Type="VI" URL="../unit tests/Slack OAuth Test.vi"/>
+		<Item Name="GooglePlatform OAuth Test.vi" Type="VI" URL="../unit tests/GooglePlatform OAuth Test.vi"/>
 		<Item Name="Oauth2.lvclass" Type="LVClass" URL="../source/Oauth2/Oauth2.lvclass"/>
 		<Item Name="OAuthClient.lvclass" Type="LVClass" URL="../source/OauthClient/OAuthClient.lvclass"/>
 		<Item Name="OAuthAccessToken.lvclass" Type="LVClass" URL="../source/OAuthToken/OAuthAccessToken.lvclass"/>
