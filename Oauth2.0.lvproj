@@ -19,16 +19,20 @@
 			<Item Name="Oauth2.GitLab.lvclass" Type="LVClass" URL="../source/Oauth2.GitLab/Oauth2.GitLab.lvclass"/>
 			<Item Name="Oauth2.Slack.lvclass" Type="LVClass" URL="../source/Oauth2.Slack/Oauth2.Slack.lvclass"/>
 			<Item Name="Oauth2.LinkedIn.lvclass" Type="LVClass" URL="../source/Oauth2.LinkedIn/Oauth2.LinkedIn.lvclass"/>
+			<Item Name="Oauth2.Google.lvclass" Type="LVClass" URL="../source/Oauth2.Google/Oauth2.Google.lvclass"/>
 		</Item>
 		<Item Name="RFC7231 HTTP 1.1" Type="Folder">
 			<Item Name="Parse HTTP Response.vi" Type="VI" URL="../source/RFC7231 HTTP 1.1/Parse HTTP Response.vi"/>
 			<Item Name="Parse Header.vi" Type="VI" URL="../source/RFC7231 HTTP 1.1/Parse Header.vi"/>
 			<Item Name="Parse Location.vi" Type="VI" URL="../source/RFC7231 HTTP 1.1/Parse Location.vi"/>
 		</Item>
-		<Item Name="Gitlab OAuth Test.vi" Type="VI" URL="../unit tests/Gitlab OAuth Test.vi"/>
-		<Item Name="GitHub OAuth Test.vi" Type="VI" URL="../unit tests/GitHub OAuth Test.vi"/>
-		<Item Name="LinkedIn OAuth Test.vi" Type="VI" URL="../unit tests/LinkedIn OAuth Test.vi"/>
-		<Item Name="Slack OAuth Test.vi" Type="VI" URL="../unit tests/Slack OAuth Test.vi"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Gitlab OAuth Test.vi" Type="VI" URL="../source/Examples/Gitlab OAuth Test.vi"/>
+			<Item Name="GitHub OAuth Test.vi" Type="VI" URL="../source/Examples/GitHub OAuth Test.vi"/>
+			<Item Name="LinkedIn OAuth Test.vi" Type="VI" URL="../source/Examples/LinkedIn OAuth Test.vi"/>
+			<Item Name="Slack OAuth Test.vi" Type="VI" URL="../source/Examples/Slack OAuth Test.vi"/>
+			<Item Name="GooglePlatform OAuth Test.vi" Type="VI" URL="../source/Examples/GooglePlatform OAuth Test.vi"/>
+		</Item>
 		<Item Name="Oauth2.lvclass" Type="LVClass" URL="../source/Oauth2/Oauth2.lvclass"/>
 		<Item Name="OAuthClient.lvclass" Type="LVClass" URL="../source/OauthClient/OAuthClient.lvclass"/>
 		<Item Name="OAuthAccessToken.lvclass" Type="LVClass" URL="../source/OAuthToken/OAuthAccessToken.lvclass"/>
@@ -43,8 +47,6 @@
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="MD5Checksum string.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum string.vi"/>
-				<Item Name="MQTT_Connection.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/MQTT_Connection.lvlib"/>
-				<Item Name="MQTT_TCP.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT TCP Connection/MQTT_TCP/MQTT_TCP.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
@@ -103,6 +105,8 @@
 				<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
 				<Item Name="Unix Time to Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/epoch.UNIX/Unix Time to Timestamp.vi"/>
 				<Item Name="OpenConvert.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Conversions/OpenConvert.lvlib"/>
+				<Item Name="Connection.TCP_GOSPL.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Connection/Connection.TCP/Connection.TCP_GOSPL.lvlib"/>
+				<Item Name="Connection_GOSPL.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Connection/Connection/Connection_GOSPL.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
