@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-04-05 12:10:21" Creator="Francois Normandin" Comments="" ID="73d9586862dd02e9934e0a3af18741f9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-04-05 15:51:00" Creator="Francois Normandin" Comments="" ID="a2f359a954adf18ff344b264d276841a">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Oauth2</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_builtpackages</Library_Output_Folder>
@@ -73,9 +73,10 @@ Online blogs by LabVIEW developers:
 A few comments about the current state and evolution of the project: 
 
 - This Oath2 library does not support Implicit Grant Flow, as it will be deprecated in Oauth 2.1 due to security concerns.
-- The library currently supports only redirections on port 80 (http) but has been built in a way that future updates should be easy to change to port 443 through https connection. This is because the project is maintained in LV2013 and TLS support was added in LV2020. However, an OauthClient class has been created to act as an "interface" which should allow injection of a TLS-secured client in later versions of LabVIEW (distributed as an extension addon to this library)
-- PKCE (Proof-Key Code Exchange) workflow is not currently implemented, but this will become mandatory in Oauth 2.1, even for server-side applications, so the workflow will be added to this library as soon as I have time to work on it, which is going to be soon I hope.
-- This library currently supports Authorization tokens, but not the ID Tokens for ConnectID extension. It is being planned as well, once support for JWT (JSON Web Token) has been added to the library.
+- PKCE (Proof-Key Challenge Exchange) workflow is implemented and used by default. It is highly recommended not to deactivate it, as it will become a mandatory feature when Oauth2.1 becomes the norm.
+
+- As of this release, the library currently supports only redirections on port 80 (http) but has been built in a way that future updates should be easy to change to port 443 through https connection. This is because the project is maintained in LV2013 and TLS support was added in LV2020. However, an OauthClient class has been created to act as an "interface" which should allow injection of a TLS-secured client in later versions of LabVIEW (distributed as an extension addon to this library)
+- This library currently supports Authorization tokens, but not the ID Tokens for OpenID extension. It should be part of a future upgrade, once support for JWT (JSON Web Token) has been added to the library.
 - The user will notice a dependency on "MQTT Connection". This is for the first release while the Connection classes are stripped from the MQTT namespace and become their own separate libraries released under the G Open Source Project for LabVIEW. Stay tuned!</Description>
       <Copyright/>
       <Packager>Francois Normandin</Packager>
@@ -83,15 +84,17 @@ A few comments about the current state and evolution of the project:
       <Release_Notes>- Initial release of Open Authorization 2.0 API (Oauth2)
 
 This release contains the base class for Oauth2 authorization workflow.
+
 It also contains extensions for popular services such as Github, Gitlab, Google, LinkedIn and Slack.
 A template class is provided to start new service extensions quickly to suit the developer's needs.
 I'm know Azure and AWS should be in that list, but those mentioned above were prioritized for developer's own selfish reasons... Hopefully this is remedied quickly through community contributions.
 
-The Oath2 library does not support Implicit Grant Flow, as this will be deprecated in Oauth 2.1 due to security concerns.
+By default, the Oauth2 library uses the PKCE (Proof-Key Challenge Exchange) workflow, which will become mandatory as of Oauth 2.1. PKCE can be deactivated with an API call before the Authorize method is called, but since it is a no-op on servers that do not support it, it is recommended that it stays activated for all authorization requests.
+
+The Oauth2 library does not (and will not) support Implicit Grant Flow, as it will be deprecated in Oauth 2.1 due to security concerns. 
 
 A few comments about the current state and evolution of the project: 
 - The library currently supports only redirections on port 80 (http) but has been built in a way that future updates should be easy to change to port 443 through https connection. This is because the project is maintained in LV2013 and TLS support was added in LV2020. However, an OauthClient class has been created to act as an "interface" which should allow injection of a TLS-secured client in later versions of LabVIEW (distributed as an extension addon to this library)
-- PKCE (Proof-Key Code Exchange) workflow is not currently implemented, but this will become mandatory in Oauth 2.1, even for server-side applications, so the workflow will be added (soon I hope)
 - This library currently supports Authorization tokens, but not the ID Tokens for ConnectID extension. It is being planned as well, once support for JWT (JSON Web Token) has been added to the library.
 - The user will notice a dependency on "MQTT Connection". This is for the first release while the Connection classes are stripped from the MQTT namespace and become their own separate libraries released under the G Open Source Project for LabVIEW. Stay tuned!</Release_Notes>
     </Description>
@@ -467,7 +470,7 @@ A few comments about the current state and evolution of the project:
         <Path>source\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13D7E6DEE86CE54EC367F9CB3835B4DA</GUID>
+      <GUID>6EC098B057DEF7C1A9D47072992DBDE8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -558,7 +561,7 @@ A few comments about the current state and evolution of the project:
         <Path>source\OauthClient\Write client handle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B448EDC0C5A9BDB073EA0EF4A3F22D1C</GUID>
+      <GUID>D34C9B9A6E4CA727736020FC60B37AE0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -621,7 +624,7 @@ A few comments about the current state and evolution of the project:
         <Path>source\OAuthToken\Update Token.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96DA8ED07EF85BDA27D5D24D5D3FE59D</GUID>
+      <GUID>57B51520E487431C03956788F8C3EF5B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -712,7 +715,7 @@ A few comments about the current state and evolution of the project:
         <Path>source\Examples\Slack OAuth Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1A818F825450B6F19036D3F96B2F08B</GUID>
+      <GUID>EB862592D3578ACB0BC392CF11046C9C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
